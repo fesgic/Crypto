@@ -19,10 +19,5 @@ Feel free to comment, criticize and advise on my code....Thankyouuuu...😄😄�
 - [Ascii]("https://github.com/fesgic/Crypto/blob/main/Cryptohack.org/2.General/ASCII.py")
 
 <h1>Hex</h1>
-<p>Decode hex string to ascii to get flag</p>
-- [Hex]("https://github.com/fesgic/Crypto/blob/main/Cryptohack.org/2.General/
-hex.py")
-
-```
-
-```")
+<p>Use binascii library unhexlify to convert hex to bytes to get flag</p>
+- [Hex]("https://github.com/fesgic/Crypto/blob/main/Cryptohack.org/2.General/hex.py")
