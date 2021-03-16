@@ -16,4 +16,13 @@ Feel free to comment, criticize and advise on my code....Thankyouuuu...😄😄�
 
 <h1>ASCII</h1>
 <p>Read Array and convert to ascii to get flag</p>
-- [Ascii]("https://github.com/fes/Crypto/blob/main/Cryptohack.org/2.General/ASCII.py")
+- [Ascii]("https://github.com/fesgic/Crypto/blob/main/Cryptohack.org/2.General/ASCII.py")
+
+<h1>Hex</h1>
+<p>Decode hex string to ascii to get flag</p>
+- [Hex]("https://github.com/fesgic/Crypto/blob/main/Cryptohack.org/2.General/
+hex.py")
+
+```
+
+```")
