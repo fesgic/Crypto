@@ -19,7 +19,11 @@ Feel free to comment, criticize and advise on my code....Thankyouuuu...😄😄�
 - [Ascii]("https://github.com/fesgic/Crypto/blob/main/Cryptohack.org/2.General/ASCII.py")
 
 <h1>Hex</h1>
-<p>We have several options:
+<p>There are several options:
 <p>- Use bytes.fromhex() to convert hex to bytes, then bytes.decode() to convert to Ascii to get the flag</p>
 <p>- Use binascii library unhexlify to convert hex to bytes to get flag</p>
 - [Hex]("https://github.com/fesgic/Crypto/blob/main/Cryptohack.org/2.General/hex.py")
+
+<h1>Base64<h1>
+<p>Decode hex to bytes, then encode to base64</p>
+- [Base64]("https://github.com/fesgic/Crypto/blob/main/Cryptohack.org/2.General/base64/py")
