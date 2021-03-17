@@ -26,7 +26,4 @@ Feel free to comment, criticize and advise on my code....Thankyouuuu...😄😄�
 
 <h1>Base64</h1>
 <p>- Decode hex to bytes, then encode to base64 and decode to ascii</p>
-
-- [/Base64]("https://github.com/fesgic/Crypto/blob/main/Cryptohack.org/2.General/encodebase.py")
-
-<h1>
+- [Base64]("https://github.com/fesgic/Crypto/blob/main/Cryptohack.org/2.General/encodebase.py")
