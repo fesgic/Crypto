@@ -24,7 +24,7 @@ Feel free to comment, criticize and advise on my code....Thankyouuuu...😄😄�
 <p>- Use binascii library unhexlify to convert hex to bytes to get flag</p>
 - [Hex]("https://github.com/fesgic/Crypto/blob/main/Cryptohack.org/2.General/hex.py")
 
-<h1>Base64<h1>
+<h1>Base64</h1>
 <p>- Decode hex to bytes, then encode to base64 and decode to ascii</p>
 
 - [Base64]("https://github.com/fesgic/Crypto/blob/main/Cryptohack.org/2.General/encodebase.py")
