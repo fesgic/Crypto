@@ -27,3 +27,9 @@ Feel free to comment, criticize and advise on my code....Thankyouuuu...😄😄�
 <h1>Base64</h1>
 <p>- Decode hex to bytes, then encode to base64 and decode to ascii</p>
 - [Base64]("https://github.com/fesgic/Crypto/blob/main/Cryptohack.org/2.General/encodebase.py")
+
+<h1>Bytes and Big Intergers</h1>
+<p>- Import cryto.util.number </p>
+<p>- Use to_bytes() to convert to bytes</p>
+<p>- Decode bytes to ascii to get flag</p>
+- [Bytes and Big Intergers]("https://github.com/fesgic/Crypto/blob/main/Cryptohack.org/2.General/bytesbigint.py")
