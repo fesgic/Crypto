@@ -60,4 +60,11 @@ Feel free to comment, criticize and advise on my code....Thankyouuuu...😄😄�
 
 <h3>XOR Properties</h3>
 <img src="./screenshots/xor_properties.png" alt="XOR Properties">
-<p>-
+<p>-From the Properties of XOR, the associative property best applies here that is: </p>
+<p> <t><t>Associative: A ⊕ (B ⊕ C) = (A ⊕ B) ⊕ C </p>
+<p>-In our case: </p>
+<p>(i)   Convert the hex to bytes</p>
+<p>(ii)  Import xor from pwntools</p>
+<p>(iii) XOR key2^key3 with key1</p>
+<p>(iv)  XOR results above with flag^key1^key3^key2 to get flag</p>
+<p>(v)   Decode the bytes to ascii</p>
