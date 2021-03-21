@@ -48,7 +48,16 @@ Feel free to comment, criticize and advise on my code....Thankyouuuu...😄😄�
 <p> then the bitwise operations are done</>
 <h3>XOR Starter</h3>
 <img src="./screenshots/xorstarter.png" alt="xorstarter">
+<h4>Python</h4>
 <p>- Loop through the string and convert each character to unicode(ascii)</p>
 <p>- XOR each character with the interger provided</p>
 <p>- Convert result back to character from unicode represntation you get after xor</p>
 <p>- Script is provided here: <a href="https://github.com/fesgic/Crypto/blob/main/Cryptohack.org/2.General/xorstarter.py">XOR starter</a></p>
+<h4>Golang</h4>
+<p>-Golang works with strings in utf-8 encoding so there will be no need for conversion</p>
+<p>-Simply loop  through each character xoring it with the interger provided, convert the bytes back to string to get the flag</p>
+<p>- Golang Script provided here: <a href="https://github.com/fesgic/Crypto/blob/main/Cryptohack.org/2.General/xorstarter.go">XOR starter</a></p>
+
+<h3>XOR Properties</h3>
+<img src="./screenshots/xor_properties.png" alt="XOR Properties">
+<p>-
