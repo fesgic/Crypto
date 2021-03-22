@@ -68,3 +68,12 @@ Feel free to comment, criticize and advise on my code....Thankyouuuu...😄😄�
 <p>(iii) XOR key2^key3 with key1</p>
 <p>(iv)  XOR results above with flag^key1^key3^key2 to get flag</p>
 <p>(v)   Decode the bytes to ascii</p>
+<p>- Script provided here: <a href="https://github.com/fesgic/Crypto/blob/main/Cryptohack.org/2.General/xor_properties.py">XOR Properties</a>
+
+<h3>Favourite Byte</h3>
+<img src="./screenshots/favourite_byte.png" alt="Favourite Byte">
+<p>-In utf-8 an unsigned in ranges from 0-256, and each has 8bits(1byte) from which one of them has been used to XOR our flag</p>
+<p>(i)  Convert the hex data to data bytes</p>
+<p>(ii) Declare the starting bytes at 0x00
+<p>(iii)Loop through range 0-256 xoring each data bytes with bytes in step(i)</p>
+<p>(iv) Since we know our flag format, print out only when the string has part of the flag else go back to step3</p>
