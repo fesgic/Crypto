@@ -3,20 +3,7 @@ This repo will contain my learning journey as i learn and solve crypto day by da
 Feel free to comment, criticize and advise on my code....Thankyouuuu...😄😄😊😊
 ##### tags `Signup` `Introduction` `General`
 ### Writeups
-<style>
-.h1{
-  color: #2495ff
-}
-.h2{
-  color: #0ab822
-}
-.h3{
-  color: #93b80a
-}
-.h4{
-  color: #cbfc15
-}
-</style>
+
 <h1>Signup</h1>
 <p>We are presented with a ROT cipher. Replace value of a in:<a href="https://github.com/fesgic/Crypto/blob/main/Cryptohack.org/0.%20Signup/">signup;</a></p>
 <p>with your cipher. The script makes 25 iterations. Pick the one which makes sense.</p>
@@ -97,6 +84,7 @@ Feel free to comment, criticize and advise on my code....Thankyouuuu...😄😄�
 <p></p>
 
 <h3>Lemur XOR</h3>
+<img src="./screenshots/LemurXor.png" alt="lemurXor">
 <p>- The two images are XORed with the same key</p>
 <p>- From XOR Properties, if we XOR the two images with each other, they are bound to give the key used in xoring them</p>
 <p>- Script provided here: <a href="https://github.com/fesgic/Crypto/blob/main/Cryptohack.org/2.General/lemurXor,sh">LemurXor</a></p>
