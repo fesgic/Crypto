@@ -3,7 +3,20 @@ This repo will contain my learning journey as i learn and solve crypto day by da
 Feel free to comment, criticize and advise on my code....Thankyouuuu...😄😄😊😊
 ##### tags `Signup` `Introduction` `General`
 ### Writeups
-
+<style>
+.h1{
+  color: #2495ff
+}
+.h2{
+  color: #0ab822
+}
+.h3{
+  color: #93b80a
+}
+.h4{
+  color: #cbfc15
+}
+</style>
 <h1>Signup</h1>
 <p>We are presented with a ROT cipher. Replace value of a in:<a href="https://github.com/fesgic/Crypto/blob/main/Cryptohack.org/0.%20Signup/">signup;</a></p>
 <p>with your cipher. The script makes 25 iterations. Pick the one which makes sense.</p>
@@ -68,12 +81,26 @@ Feel free to comment, criticize and advise on my code....Thankyouuuu...😄😄�
 <p>(iii) XOR key2^key3 with key1</p>
 <p>(iv)  XOR results above with flag^key1^key3^key2 to get flag</p>
 <p>(v)   Decode the bytes to ascii</p>
-<p>- Script provided here: <a href="https://github.com/fesgic/Crypto/blob/main/Cryptohack.org/2.General/xor_properties.py">XOR Properties</a>
+<p>- Script provided here: <a href="https://github.com/fesgic/Crypto/blob/main/Cryptohack.org/2.General/xor_properties.py">XOR Properties</a></p>
 
 <h3>Favourite Byte</h3>
 <img src="./screenshots/favourite_byte.png" alt="Favourite Byte">
 <p>-In utf-8 an unsigned in ranges from 0-256, and each has 8bits(1byte) from which one of them has been used to XOR our flag</p>
 <p>(i)  Convert the hex data to data bytes</p>
-<p>(ii) Declare the starting bytes at 0x00
+<p>(ii) Declare the starting bytes at 0x00</p>
 <p>(iii)Loop through range 0-256 xoring each data bytes with bytes in step(i)</p>
 <p>(iv) Since we know our flag format, print out only when the string has part of the flag else go back to step3</p>
+<p>- Script provide here: <a href="https://github.com/fesgic/Crypto/blob/main/Cryptohack.org/2.General/favourite_byte.py">Favourite Byte</a></p>
+
+<h3>You either know, XOR you dont</h3>
+<img src="./screenshots/eitherKnowXor.png" alt="Know XOR or Not">
+<p></p>
+
+<h3>Lemur XOR</h3>
+<p>- The two images are XORed with the same key</p>
+<p>- From XOR Properties, if we XOR the two images with each other, they are bound to give the key used in xoring them</p>
+<p>- Script provided here: <a href="https://github.com/fesgic/Crypto/blob/main/Cryptohack.org/2.General/lemurXor,sh">LemurXor</a></p>
+
+
+<h2>Mathematics<h2>
+<h3>Greatest Common Divisor</h3>
