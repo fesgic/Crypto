@@ -87,8 +87,20 @@ Feel free to comment, criticize and advise on my code....Thankyouuuu...😄😄�
 <img src="./screenshots/LemurXor.png" alt="lemurXor">
 <p>- The two images are XORed with the same key</p>
 <p>- From XOR Properties, if we XOR the two images with each other, they are bound to give the key used in xoring them</p>
-<p>- Script provided here: <a href="https://github.com/fesgic/Crypto/blob/main/Cryptohack.org/2.General/lemurXor,sh">LemurXor</a></p>
+<p>- Script provided here: <a href="https://github.com/fesgic/Crypto/blob/main/Cryptohack.org/2.General/lemurXor.sh">LemurXor</a></p>
 
 
 <h2>Mathematics<h2>
 <h3>Greatest Common Divisor</h3>
+<img src="./screenshots/gcd.png" alt="GCD">
+<p>- For this task, i used <a href="https://en.wikipedia.org/wiki/Euclidean_algorithm#Description">Euclid's algorithm</a> as advised in the challenge. Found it pretty simple than expected btw...</p>
+<p>- For easier understanging, please go through the following youtube video: <a href="https://youtu.be/cOwyHTiW4KE">The Trev Tutor- Euclidian algorithm</a></p>
+<p>- Basically, for any values (a,b): a = bq+r  and gcd(a,b) = gcd(b,r)<br>
+e.g (5,2) = 2.2+1<br>
+b = 2 r =1<br>
+(2,1) = 2.1 + 0<br>
+when r = 0, gcd will be equal to the value of b <br>
+- For bigger numbers, repeat this recursively till r=0 .i.e while loop
+- With this in mind, we can now script it <a href="https://github.com/fesgic/Crypto/blob/main/Cryptohack.org/2.General/Mathematics/gcd.py>Euclidean algorithm</a></p>
+
+<h3>Extended GCD</h3>
