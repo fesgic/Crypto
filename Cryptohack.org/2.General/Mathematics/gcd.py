@@ -6,6 +6,7 @@ def gcd(a,b):
         c = a%b
         a = b
         b = c
+        #a,b = b,c
     print(a)
 def test():
     gcd(12,8)
