@@ -7,6 +7,8 @@ def gcd(a,b):
         a = b
         b = c
     print(a)
-
+def test():
+    gcd(12,8)
 if __name__ == "__main__":
+    test()
     gcd(66528,52920)
